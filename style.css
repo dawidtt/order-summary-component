@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #e0e8ff;
+    background-image: url(./images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    font-size: 16px;
+    color: #1f2f56;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Red Hat Display", sans-serif;
+}
+#main-container {
+    margin: 40px;
+    background-color: #ffffff;
+    max-width: 350px;
+    border-radius: 25px
+}
+#top img {
+    max-width: 350px;
+    border-radius: 25px 25px 0 0;
+}
+#mid-top {
+    text-align: center;
+    margin: 20px;
+}
+#mid-top h2 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+#mid-top p {
+    font-size: 1.3rem;
+    opacity: 70%;
+}
+#mid-bottom {
+    background-color: rgba(224, 232, 255, 0.88);
+    border-radius: 15px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 10px -5px rgba(66, 68, 90, 1);
+}
+#music-container {
+    padding-left: 20px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#music-container p {
+    height: fit-content;
+    margin-left: 20px;
+    font-weight: 700;
+}
+#music-container span {
+    opacity: 70%;
+}
+#music-container img {
+    height: 60%;
+}
+a {
+    padding-right: 20px;
+    color: #3829e0;
+    font-weight: 600;
+}
+a:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+#bottom {
+    margin: 30px;
+    text-align: center;
+
+}
+#bottom p {
+    margin: 40px 0;
+    opacity: 70%;
+    font-weight: 700;
+}
+#bottom p:hover {
+    opacity: 1;
+    cursor: pointer;
+    font-weight: 800;
+}
+button {
+    width: 100%;
+    padding: 15px 50px;
+    background-color: #3829e0;
+    border-radius: 10px;
+    border: none;
+    color: #ffffff;
+    font-size: 1.2rem;
+    box-shadow: -1px 18px 18px -7px rgba(114, 128, 167, 1);
+    font-weight: 500;
+}
+button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+@media (min-width: 576px) {
+    #main-container {
+        max-width: 450px;
+    }
+    #top img {
+        max-width: 450px;
+    }
+    body {
+        background-image: url(./images/pattern-background-desktop.svg);
+        background-repeat: no-repeat;
+        font-size: 20px;
+    }
+}
